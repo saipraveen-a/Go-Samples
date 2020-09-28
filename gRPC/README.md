@@ -20,3 +20,7 @@ a client built in another language altogether.
         go get -u google.golang.org/grpc
 
         go get -u github.com/golang/protobuf/protoc-gen-go
+
+ ## Generating client code from proto file
+
+        protoc --proto_path=proto --proto_path=thirdparty --go_out=plugins=grpc:proto proto/service.proto       
