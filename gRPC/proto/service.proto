@@ -1,5 +1,6 @@
 syntax = "proto3"; // protobuf version
 
+go_package gRPC/proto // this is needed to avoid warnings on newer versions of protobuf compiler (protoc)
 package proto; // package where the generated go module will go to
 
 // structure of input message
