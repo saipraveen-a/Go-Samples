@@ -1,0 +1,18 @@
+syntax = "proto3"; // protobuf version
+
+package proto; // package where the generated go module will go to
+
+// structure of input message
+message Request {
+  int64 a = 1; // size of datatypes after serialization. 1 Byte
+  int64 b = 2;
+}
+
+message Response { 
+  int64 result = 1; 
+}
+
+service AddService {
+  rpc Add(Request) returns (Response); // Add given numbers
+  rpc Multiply(Request) returns (Response); // Multiply given numbers
+}
