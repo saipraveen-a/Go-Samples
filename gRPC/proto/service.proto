@@ -1,6 +1,7 @@
 syntax = "proto3"; // protobuf version
 
-package proto; // package where the generated go module will go to
+//package proto; // package where the generated go module will go to
+go_package proto;
 
 // structure of input message
 message Request {

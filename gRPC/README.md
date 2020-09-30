@@ -23,4 +23,9 @@ a client built in another language altogether.
 
  ## Generating client code from proto file
 
-        protoc --proto_path=proto --proto_path=thirdparty --go_out=plugins=grpc:proto proto/service.proto       
+        protoc --proto_path=proto --proto_path=thirdparty --go_out=plugins=grpc:proto proto/service.proto
+
+## Advantages of ProtoBuf over JSON 
+
+    - Size of Payload is less
+    - Parsing JSON is quite CPU intensive since JSON is text based while Protobuf is binary
