@@ -15,7 +15,7 @@ a client built in another language altogether.
 
 ## Getting Started
 
-    Install[Protocol Buffer compiler] (https://github.com/protocolbuffers/protobuf/releases)
+Install [ProtoBuf Compiler](https://github.com/protocolbuffers/protobuf/releases)
 
     Use a Version Manager like gvm or goenv. I prefer using gvm as it has an option of isolating the package dependencies of one Project from another
     using pkgsets. 
