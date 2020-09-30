@@ -32,3 +32,7 @@ Install [ProtoBuf Compiler](https://github.com/protocolbuffers/protobuf/releases
 
     - Size of Payload is less
     - Parsing JSON is quite CPU intensive since JSON is text based while Protobuf is binary
+
+## Reference
+
+[gRPC Tutorial](https://www.youtube.com/watch?v=Y92WWaZJl24)
