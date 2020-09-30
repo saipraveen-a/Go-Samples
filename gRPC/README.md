@@ -5,10 +5,13 @@ a client built in another language altogether.
 
 ## Useful Documentation
 
-    [gRPC](https://grpc.io)
-    ![gRPC](images/gRPC.png)
+[gRPC](https://grpc.io)
 
-    [ProtoBuf](https://developers.google.com/protocol-buffers)
+[ProtoBuf](https://developers.google.com/protocol-buffers)
+
+
+![gRPC](images/gRPC.png)
+
 
 ## Getting Started
 
